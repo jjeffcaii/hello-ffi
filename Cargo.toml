@@ -1,0 +1,12 @@
+[package]
+name = "hello-ffi"
+version = "0.1.0"
+authors = ["Jeffsky <jjeffcaii@outlook.com>"]
+edition = "2018"
+
+[lib]
+name = "hello_ffi"
+crate-type = ["dylib"]
+
+[dependencies]
+futures = "0.3.5"
